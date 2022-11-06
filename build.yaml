@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nrfmicro_13
     shield: taira_left
-  - board: nice_nano
+  - board: nrfmicro_13
     shield: taira_right
