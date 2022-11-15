@@ -4,7 +4,7 @@
 if SHIELD_TAIRA_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Taira"
+	default "Terraria001"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
