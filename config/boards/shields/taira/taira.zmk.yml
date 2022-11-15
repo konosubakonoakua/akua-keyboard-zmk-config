@@ -1,6 +1,6 @@
 file_format: "1"
 id: taira
-name: Taira
+name: Terraria001
 type: shield
 url: https://github.com/strayer/tairakb/
 requires: [pro_micro]
