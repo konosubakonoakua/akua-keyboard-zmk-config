@@ -40,17 +40,17 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Tab  |   A  |   S  |   D  |   F  |   G  |                                              |   H  |   J  |   K  |   L  |   ;  |  '   |
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
+ * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Ins  | PGUP  | | PGDN  | DEL   |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | MENU | Meta  |             | Alt | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | MENU | Meta | Alt  |             | Home |Space | Lower | | Raise | BSPC  | END  |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
 &lt HYPER ESC    &kp  N1    &kp  N2     &kp  N3     &kp  N4    &kp  N5                                                                        &kp  N6  &kp  N7    &kp  N8     &kp  N9    &kp  N0       &kp  PSCRN
 &kp  TAB         &kp  Q     &kp  W      &kp  E      &kp  R     &kp  T                                                                         &kp  Y   &kp  U     &kp  I      &kp  O     &kp  P        &kp  BSLH
 &kp  GRAVE       &kp  A     &kp  S      &kp  D      &kp  F     &kp  G                                                                         &kp  H   &kp  J     &kp  K      &kp  L     &kp  SEMI     &kp  SQT
-&kp  LSHFT       &kp  Z     &kp  X      &kp  C      &kp  V     &kp  B             &kp  DEL    &kp  PG_DN    &kp  PG_UP  &kp  HOME             &kp  N   &kp  M     &kp  COMMA  &kp  DOT   &kp  SLASH    &mt  RSHFT ENTER
-&kp  LCTRL       &kp LALT   &kp  K_APP  &kp  LMETA                      &kp LALT  &kp  SPACE  &mo  LOWER    &mo  RAISE  &kp  BSPC &kp  RALT                       &kp  LEFT   &kp  DOWN  &kp  UP       &kp  RIGHT
+&kp  LSHFT       &kp  Z     &kp  X      &kp  C      &kp  V     &kp  B             &kp  INS    &kp  PG_UP    &kp  PG_DN  &kp  DEL              &kp  N   &kp  M     &kp  COMMA  &kp  DOT   &kp  SLASH    &mt  RSHFT ENTER
+&kp  LCTRL       &kp  K_APP  &kp  LMETA   &kp LALT                      &kp HOME  &kp  SPACE  &mo  LOWER    &mo  RAISE  &kp  BSPC &kp   END                       &kp  LEFT   &kp  DOWN  &kp  UP       &kp  RIGHT
                         >;
                 };
 
@@ -63,9 +63,9 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Tab  |   A  |   S  |   D  |   F  |   G  |                                              |   H  |   J  |   K  |   L  |   ;  |  '   |
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
+ * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Ins  | PGUP  | | PGDN  | DEL   |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | MENU | Meta  |             | Alt | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | MENU | Meta | Alt  |             | Home |Space | Lower | | Raise | BSPC  | END  |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
@@ -86,9 +86,9 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Tab  |   A  |   S  |   D  |   F  |   G  |                                              |   H  |   J  |   K  |   L  |   ;  |  '   |
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
+ * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Ins  | PGUP  | | PGDN  | DEL   |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | MENU | Meta  |             | Alt | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | MENU | Meta | Alt  |             | Home |Space | Lower | | Raise | BSPC  | END  |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
@@ -109,17 +109,17 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Tab  |   A  |   S  |   D  |   F  |   G  |                                              |   H  |   J  |   K  |   L  |   ;  |  '   |
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
+ * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Ins  | PGUP  | | PGDN  | DEL   |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | MENU | Meta  |             | Alt | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | MENU | Meta | Alt  |             | Home |Space | Lower | | Raise | BSPC  | END  |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5                                                                          &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5
 &none        &none        &none        &none        &none        &none                                                                                 &none        &none        &none        &none        &none        &none
 &none        &none        &none        &none        &none        &none                                                                                 &none        &none        &none        &none        &none        &none
-&none        &none        &none        &none        &none        &none                     &none       &none         &none       &none                 &none        &none        &none        &none        &none        &none
-&bt BT_CLR   &none        &none        &none                                     &none     &none       &trans        &trans      &none     &none                                 &none        &none        &none        &bt BT_CLR
+&none        &none        &none        &none        &none        &none                     &none       &none         &none       &bt BT_CLR            &none        &none        &none        &none        &none        &none
+&none        &none        &none        &none                                     &none     &none       &trans        &trans      &bt BT_CLR     &none                            &none        &none        &none        &none
                         >;
                 };
 
@@ -132,9 +132,9 @@
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
  * | Tab  |   A  |   S  |   D  |   F  |   G  |                                              |   H  |   J  |   K  |   L  |   ;  |  '   |
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Del  | PGDN  | | PGUP  | Home  |      |   N  |   M  |   ,  |   .  |   /  | Shift|
+ * | Shift|   Z  |   X  |   C  |   V  |   B  |      | Ins  | PGUP  | | PGDN  | DEL   |      |   N  |   M  |   ,  |   .  |   /  | Shift|
  * |-------------+------+------+------+------+------+------+-------+-+-------+-------+------+------+------+------+------+------+------|
- * | Ctrl | Alt  | MENU | Meta  |             | Alt | Space| Lower | | Raise | Enter | RAlt |             | LEFT | DOWN | UP   | RIGHT|
+ * | Ctrl | MENU | Meta | Alt  |             | Home |Space | Lower | | Raise | BSPC  | END  |             | LEFT | DOWN | UP   | RIGHT|
  * .----------------------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
